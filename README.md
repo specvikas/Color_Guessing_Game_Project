@@ -1,2 +1,2 @@
 # Color_Guessing_Game_Project
-It's a color guessing game, where you have to guess the color from the RGB value
+It's a project to build a website of games where games for all age groups will be available.
