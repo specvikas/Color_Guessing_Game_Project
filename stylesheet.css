@@ -1,0 +1,120 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-size: 20;
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #f4f4f4;
+}
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+ul
+{
+	margin:0;
+	padding: 0;
+}
+/*header pat*/
+header
+{
+	background-color: #35424a;
+	color: white; 
+	padding-top: 30px;
+	min-height: 70;
+	border-bottom: #e8491d 4px solid;
+}
+header li
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+header a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12;
+}
+header div #div1
+{
+	float: left;
+}
+header div #div1 h1
+{
+	margin: 0;
+}
+
+/* section part  */
+#section1
+{
+	border: #e8491d;
+	min-height: 500px;
+	background-image: url("gaming.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	border-bottom: #35424a 4px solid;
+}
+#section1 h1{
+	text-align: center;
+	color: linear-gradient( to right, #4D5656, #ABB2B9);
+	margin-left: 550px;
+	padding-top: 166px;
+	font-size: 25px;
+}
+#section2
+{
+	margin:0;
+	padding: 0;
+	background-color: #e8491d;
+	color: white;
+
+}
+#img
+{
+	max-width: 30%;
+	max-height: 40%;
+	margin-left: 40px;
+}
+#img2
+{
+	max-width: 30%;
+	max-height: 30%;
+	margin-left: 125px;
+}
+#section2 h3{
+	text-align: left;
+	margin-left: 150px;
+	height : 30%;
+	color: black;
+	font-size: 25px;
+}
+#section2 pre{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+}
+/*
+#inimg
+{
+	color : #F1C40F;
+}
+*/
+footer p
+{
+	font-size: 1;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	background-color: black;
+}

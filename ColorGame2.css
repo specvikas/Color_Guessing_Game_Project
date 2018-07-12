@@ -1,0 +1,115 @@
+body
+{
+	/*background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Free-Tileable-High-Quality-Wood-Textures-Patterns-For-3D-Mapping.jpg");*/
+	background-image: url("https://i0.wp.com/www.efoza.com/postpic/2015/01/dark-twitter-background-design_159631.jpg?resize=640%2C341");
+	height: 100%;
+	background-size: cover;
+	background-repeat:no-repeat; 
+	font-family: "Nunito";
+}
+
+#top
+{
+	margin-top: 30px;
+	margin-left: 190px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 84%;
+	height: 15px;
+	background-color: #AED6F1;
+
+}
+
+#bottom
+{
+	/*background-color: white;*/
+	margin-left: 190px; 
+	width: 84%;
+	height: 200px;
+	padding-top: 20px;
+}
+
+#left
+{
+	/*background-color:  steelblue;*/
+	/*margin-top: inherit;*/
+	margin-left: 20px; 
+	width: 96%;
+	height: 180px;
+}
+
+#label
+{
+	color: #76D7C4;
+	font-family: "Nunito";
+	font-weight: bold;
+	font-size: 50px;
+}
+
+input[type=text]
+{
+	width: 30%;
+	height: 32px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+}
+
+button{
+	border : none;
+	background: none;
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-family: "Nunito";
+	height: 60%;
+	font-weight: 900;
+	color: #76D7C4;
+	letter-spacing: 1px;
+	font-size: 30px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	outline: none;
+}
+
+button:hover
+{
+	color: white;
+	background: steelblue;
+}
+
+/*#right
+{
+	background-color: black;
+	margin-top: 0px;
+	margin-left: inherit; 
+	width: 40%;
+	height: 180px;
+}*/
+
+h1
+{
+	color : #3498DB;
+	/*background-color: white;*/
+	text-align : center;
+	margin-top: 40px;
+	/*margin-bottom: 100px;*/
+	font-weight: bold;
+	font-size: 70px;
+	text-transform: uppercase;
+	height: 265px;
+	padding-top: 0px;
+}
+
+h1:hover
+{
+	color: white;
+	transition: all 0.5s;
+	opacity: 0.7;
+}
+
+h1:not(:hover)
+{
+	color: #3498DB;
+	transition: all 2.0s;
+	opacity: 1.0;
+}

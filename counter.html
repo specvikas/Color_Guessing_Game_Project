@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counter</title>
+</head>
+<body onload="timer()">
+<p id="counter"></p>
+<!--<input id="counter" type="text"> !-->
+<script type="text/javascript">
+	
+	var c = 61;
+	
+	function timer() {
+     c = c - 1;
+	
+	if(c>=0)
+	{
+	 document.getElementById('timer').innerHTML = c;
+     var t = setTimeout(function(){timer()},1000);
+ 
+}
+else {
+	clearTimeout(t);
+    alert("Game Over");
+    c = 61 ;
+
+}
+}
+
+</script>
+</body>
+</html>

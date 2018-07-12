@@ -1,2 +1,8 @@
-# Gaming_Website_Project
-It's a project to build a website of games where games for all age groups will be available.
+30MinuteGame
+============
+
+30 Minutes to Your First Game from ByteArray.
+
+See the show on Youtube at http://www.youtube.com/playlist?list=PLAgylfU8wrtsQWpm3NMCpEjV5fYyrC51p
+
+
